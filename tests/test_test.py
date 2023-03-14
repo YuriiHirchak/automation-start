@@ -1,7 +1,5 @@
-def test_search_repo():
-    assert 1 == 1
+def test_user_age_is_42():
+    assert user.age == 43
 
-# def test_search_repo():
-#     repo = github_api_client.search_repo('bla')
-
-#     assert repo == "afafa"
+def test_user_age_is_50(user):
+    assert user.age == 50

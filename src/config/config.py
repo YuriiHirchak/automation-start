@@ -21,7 +21,8 @@ class Config:
             ConfigFromEnvProvider(),
             ]
 
-        self.register("BASE_URL")
+        self.register("BASE_URL_API")
+        self.register("BASE_URL_UI")
 
     def register(self, name):
         """

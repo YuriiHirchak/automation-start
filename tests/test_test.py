@@ -6,5 +6,8 @@ def test_user_age_is_42():
 def test_user_age_is_50(user):
     assert user.age == 50
 
-def test_config():
-    print(config.get("BASE_URL"))
+def test_():
+    print(config.get("BASE_URL_API"))
+
+def test_ui_POM():
+    print(config.get("BASE_URL_API"))
